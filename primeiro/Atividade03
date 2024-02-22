@@ -30,8 +30,25 @@ Diário de aula:
 ->[Tipo de dado]
 
 -> [Definições] Interpolação: Marcação para que o processador entenda que é necessário processar um dado. Ex: Uma variável no meio de uma String
--> [Stirng] Aceita '....$variavel....',  '....${variavel}...'.          ->      e $'...{variavel}...'?
+-> [String] Aceita '....$variavel....',  '....${variavel}...'.          ->      e $'...{variavel}...'?
 
 
+/**
+   * Atividade 01
+   * a) Defina as seguintes variáveis e seus respectivos valores: 
+   * displina, carga horária com casas decimais, professor responsável, 
+   * se a disciplina está ativa e quantidade de alunos. 
+   * b) imprima todos os valores utilizando: i) concatenação, 
+   * ii) interpolação simples e (iii) a interpolação com processamento
+   * 
+   * Atividade 02
+   * Aplique o que aprendeu no seu projeto.
+**/
+
+R01: 	[disciplina]
+	[Carga horária com casas decimais]
+	[professor responsável]
+	[ativa]
+	[Quantidade de Alunos]
 
 
