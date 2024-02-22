@@ -25,3 +25,13 @@ Diário de aula:
   conversão de dados, métodos);
 - Exercícios do caso de uso do Professor;
 - Exercícios do seu projeto.
+
+->Definições
+->[Tipo de dado]
+
+-> [Definições] Interpolação: Marcação para que o processador entenda que é necessário processar um dado. Ex: Uma variável no meio de uma String
+-> [Stirng] Aceita '....$variavel....',  '....${variavel}...'.          ->      e $'...{variavel}...'?
+
+
+
+
