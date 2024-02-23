@@ -1,16 +1,30 @@
-
+----------------------------------------------------------------------- 22/02/2024 -----------------------------------------------------------------------
 Nosso estudo de caso:
 - aplicativo para gestão de notas 
 de alunos;
 
-[Projeto]
-Aplicativo para gestão de notas de alunos.
-[Tempo estimado]  	90h de desenvolvimento						??
-[Valor aproximado]  	R$81.000,00							??
-[Equipe] Atualmente, 	P.O e 2 desenvolvedores (ajustando a demanda entre si)		??
+Diário de aula:
+- Nome do aplicativo com a devida descrição do escopo; 
+- Faça o material de estudo da aula (criação projeto, pasta lib, 
+  criação arquivo, método main, execução, variáveis, tipos de dados, 
+  interpolação, boas práticas, variáveis de inferência, 
+  constantes e valor final, entrada de dados, null safery, 
+  conversão de dados, métodos);
+- Exercícios do caso de uso do Professor;
+- Exercícios do seu projeto.
 
+----------------------------------------------------------------------- Anotações -----------------------------------------------------------------------
+->Definições
+->[Tipo de dado]
 
+-> [Definições] Interpolação: Marcação para que o processador entenda que é necessário processar um dado. Ex: Uma variável no meio de uma String
+-> [String] Aceita '....$variavel....',  '....${variavel}...'.          ->      e $'...{variavel}...'?
 
+-> [Definições] Uso de variável só pode ser aceito caso ela seja inicializada antes.
+-> [String] print (variavel);     //Somente se variavel já estiver atribuída
+
+----------------------------------------------------------------------- Anotações -----------------------------------------------------------------------
+----------------------------------------------------------------------- Atividades -----------------------------------------------------------------------
 01) - Defina um projeto para você! 
 (Um para cada aluno)
 
@@ -23,25 +37,13 @@ Aplicativo para gestão de notas de alunos.
     b) Escolhendo um ramo defina o escopo. Exemplo: 
 	Anamnese; Registro de resultado de Exames; Avaliação de Jogadores;
 	Formação de times/chaves; Agendamento de horário/serviço; Gestão de pedidos;
-	
-Diário de aula:
-- Nome do aplicativo com a devida descrição do escopo; 
-- Faça o material de estudo da aula (criação projeto, pasta lib, 
-  criação arquivo, método main, execução, variáveis, tipos de dados, 
-  interpolação, boas práticas, variáveis de inferência, 
-  constantes e valor final, entrada de dados, null safery, 
-  conversão de dados, métodos);
-- Exercícios do caso de uso do Professor;
-- Exercícios do seu projeto.
 
-->Definições
-->[Tipo de dado]
 
--> [Definições] Interpolação: Marcação para que o processador entenda que é necessário processar um dado. Ex: Uma variável no meio de uma String
--> [String] Aceita '....$variavel....',  '....${variavel}...'.          ->      e $'...{variavel}...'?
-
--> [Definições] Uso de variável só pode ser aceito caso ela seja inicializada antes.
--> [String] print (variavel);     //Somente se variavel já estiver atribuída
+[Projeto]
+Aplicativo para gestão de notas de alunos.
+[Tempo estimado]  	90h de desenvolvimento						??
+[Valor aproximado]  	R$81.000,00							??
+[Equipe] Atualmente, 	P.O e 2 desenvolvedores (ajustando a demanda entre si)		??
 
 /**
    * Atividade 01
@@ -67,3 +69,20 @@ R01b:
 	[interpolação simples] print ('Creio que seja essa a interpolação simples de ${variavel}');
 	[interpolação com processamento] print ('Creio que seja essa a interpolação simples de $variavel');
 
+
+   * Atividade 03
+   * a) Refaça "Atividade 01" utilizando Inferência de Tipo.
+   * 
+   * Atividade 04
+   */
+   * Aplique o que aprendeu no seu projeto (dynamic).
+
+//01) Considerando o exemplo, em qual contexto utilizamos uma variável dynamica?
+  //02) Em relação ao seu projeto, faça 2 exemplos de uso incorreto. Justifique.
+  //03) Em relação ao seu projeto, faça 2 exemplos de uso correto. Justifique.
+>>>Atividade
+  01) Em relação ao seu projeto, faça 2 exemplos de uso incorreto. Justifique.
+  02) Em relação ao seu projeto, faça 2 exemplos de uso correto. Justifique.
+  03) Qual a diferença entre uma variável, const e final. Qual devemos utilizar?
+
+----------------------------------------------------------------------- Atividades -----------------------------------------------------------------------
