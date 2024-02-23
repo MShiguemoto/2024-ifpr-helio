@@ -87,4 +87,10 @@ R01b:
   03) Qual a diferença entre uma variável, const e final. Qual devemos utilizar?
 
 R01: Quando se é necessário fazer diferentes tipos em uma variável. Ex: ID long != ID int != String
+R02: dynamic variavel = '12';						dynamic variavel = 12;
+	variavel = 'uma string';					variavel = 365;
+
+R03:	dynamic variavel = 'id1231231231';				
+	variavel = 1231231231;
+
 ----------------------------------------------------------------------- Atividades -----------------------------------------------------------------------
