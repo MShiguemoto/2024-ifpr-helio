@@ -32,6 +32,8 @@ Diário de aula:
 -> [Definições] Interpolação: Marcação para que o processador entenda que é necessário processar um dado. Ex: Uma variável no meio de uma String
 -> [String] Aceita '....$variavel....',  '....${variavel}...'.          ->      e $'...{variavel}...'?
 
+-> [Definições] Uso de variável só pode ser aceito caso ela seja inicializada antes.
+-> [String] print (variavel);     //Somente se variavel já estiver atribuída
 
 /**
    * Atividade 01
@@ -45,10 +47,15 @@ Diário de aula:
    * Aplique o que aprendeu no seu projeto.
 **/
 
-R01: 	[disciplina]					class Disciplina
+R01a: 	
+	[disciplina]					class Disciplina
 	[Carga horária com casas decimais]		DateTime
 	[professor responsável]				class Professor
 	[ativa]						boolean
 	[Quantidade de Alunos]				int
 
+R01b: 
+	[concatenação] print ('Concatenar ' + variavel + 'para atividade 01' );
+	[interpolação simples] print ('Creio que seja essa a interpolação simples de ${variavel}');
+	[interpolação com processamento] print ('Creio que seja essa a interpolação simples de $variavel');
 
