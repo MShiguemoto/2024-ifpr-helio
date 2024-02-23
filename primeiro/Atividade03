@@ -13,6 +13,7 @@ Diário de aula:
 - Exercícios do caso de uso do Professor;
 - Exercícios do seu projeto.
 
+Autoavaliação: (Orçamento) Pleno
 ----------------------------------------------------------------------- Anotações -----------------------------------------------------------------------
 ->Definições
 ->[Tipo de dado]
@@ -85,4 +86,5 @@ R01b:
   02) Em relação ao seu projeto, faça 2 exemplos de uso correto. Justifique.
   03) Qual a diferença entre uma variável, const e final. Qual devemos utilizar?
 
+R01: Quando se é necessário fazer diferentes tipos em uma variável. Ex: ID long != ID int != String
 ----------------------------------------------------------------------- Atividades -----------------------------------------------------------------------
