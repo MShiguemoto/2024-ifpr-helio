@@ -45,10 +45,10 @@ Diário de aula:
    * Aplique o que aprendeu no seu projeto.
 **/
 
-R01: 	[disciplina]
-	[Carga horária com casas decimais]
-	[professor responsável]
-	[ativa]
-	[Quantidade de Alunos]
+R01: 	[disciplina]					class Disciplina
+	[Carga horária com casas decimais]		DateTime
+	[professor responsável]				class Professor
+	[ativa]						boolean
+	[Quantidade de Alunos]				int
 
 
