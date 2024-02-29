@@ -36,6 +36,13 @@ a) Quais são os tipos de parâmetros em dart? Explique as diferenças, vantagen
 b) Em relação a cada tipo de parâmetro, faça 3 exemplos do estudo de caso. 
 c) Em relação a cada tipo de parâmetro, faça 3 exemplos do projeto. 
 
+[Atividade 01]
+a) 
+    print('Digite o valor da primeira avaliação: ');
+    var aval01 = stdin.readLineSync() as Float; 
+
+    print('Digite o valor da segunda avaliação: ');
+    var aval02 = stdin.readLineSync() as Float;  
 
 
 
