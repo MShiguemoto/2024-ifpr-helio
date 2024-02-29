@@ -60,8 +60,26 @@ b)
     var media = (aval01 + aval02)/2;
 
 
+[Atividade 03]
+a) void motrarString(String mensagem) {
+  print(mensagem);
+}
 
+int pedirValorInt(String mensagem) {
+  print(mensagem);
+  var valor = stdin.readLineSync() as int;
+  return valor;
+}
 
+Float pedirValorFloat(String mensagem) {
+  print(mensagem);
+  var valor = stdin.readLineSync() as Float;
+  return valor;
+}
+
+double calculaMedia(int quantidadeNumeros, double valor) {
+  return valor / quantidadeNumeros;
+}
 
 
 
