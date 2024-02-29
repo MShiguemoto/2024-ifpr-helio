@@ -7,7 +7,7 @@
 
 
 ----------------------------------------------------------------------- Anotações -----------------------------------------------------------------------
-[Definição] O operador "!" faz com que o programa ignore futuros erros, porém, caso dê problema ele também não indicará no código
+[Definição] O operador "!" (Bang) faz com que o programa ignore futuros erros, porém, caso dê problema ele também não indicará no código
 [Manipulação de tipos] var idadeString = stdin.readLineSync()!;  // ! usado no final da linha 
 
 
