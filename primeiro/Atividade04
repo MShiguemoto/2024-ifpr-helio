@@ -10,8 +10,8 @@
 [Definição] O operador "!" (Bang) faz com que o programa ignore futuros erros, porém, caso dê problema ele também não indicará no código
 [Manipulação de tipos] var idadeString = stdin.readLineSync()!;  // ! usado no final da linha 
 
-[Definição] Float é "purely as marker in types signature"
-[Types] Float não estava funcionando operador lógico aritmetico.    
+[Definição] Float/Double é "purely as marker in types signature"
+[Types] Float/Double não estava funcionando operador lógico aritmetico.    
 
 
 
