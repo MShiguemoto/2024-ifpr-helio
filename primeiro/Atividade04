@@ -13,6 +13,8 @@
 [Definição] Float/Double é "purely as marker in types signature"
 [Types] Float/Double não estava funcionando operador lógico aritmetico.    
 
+[Deifnição] Em dart, declaração de funções "void", não precisa declarar a palavra "void"
+[Void]    minhaFuncao(){} // Retorno void
 
 
 ----------------------------------------------------------------------- Anotações -----------------------------------------------------------------------
