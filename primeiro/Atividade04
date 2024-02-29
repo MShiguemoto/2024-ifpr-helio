@@ -44,6 +44,7 @@ a)
     print('Digite o valor da segunda avaliação: ');
     var aval02 = stdin.readLineSync() as Float;  
 
+    var media = (aval01 + aval02)/2;
 
 
 
