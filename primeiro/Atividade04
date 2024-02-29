@@ -67,4 +67,55 @@ b)
 
 
 ----------------------------------------------------------------------- Atividades -----------------------------------------------------------------------
+----------------------------------------------------------------------- Código escrito em aula -----------------------------------------------------------
+import 'dart:ffi';
+import 'dart:io';
+
+main() {
+  print('aula funções');
+  print('nome: ');
+  var nome = stdin.readLineSync();
+  print('meu nome é $nome');
+
+  print('idade? ');
+  var idade = stdin.readLineSync()
+      as Float; /* O operador "!" faz com que o programa ignore futuros erros, porém, caso dê problema ele também não indicará no código*/
+
+  print('a minha idade é $idade');
+
+  var aval01;
+  var aval02;
+  do {
+    aval01 = pedirValorInt('Digite o valor da primeira avaliação: ');
+
+    aval02 = pedirValorInt('Digite o valor da segunda avaliação: ');
+  } while (aval01 > 0 && aval01 < 11 && aval02 > 0 && aval02 < 11);
+
+  var soma = aval01 + aval02;
+  var media = calculaMedia(2,soma);
+
+  /* */
+}
+
+void motrarString(String mensagem) {
+  print(mensagem);
+}
+
+int pedirValorInt(String mensagem) {
+  print(mensagem);
+  var valor = stdin.readLineSync() as int;
+  return valor;
+}
+
+Float pedirValorFloat(String mensagem) {
+  print(mensagem);
+  var valor = stdin.readLineSync() as Float;
+  return valor;
+}
+
+double calculaMedia(int quantidadeNumeros, double valor) {
+  return valor / quantidadeNumeros;
+}
+
+----------------------------------------------------------------------- Código escrito em aula -----------------------------------------------------------
 ----------------------------------------------------------------------- 22/02/2024 -----------------------------------------------------------------------
