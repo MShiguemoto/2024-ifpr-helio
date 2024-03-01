@@ -61,10 +61,12 @@ b)
 
 [Atividade 02]
 a) Sim, null sempre será um problema, caso não seja tratado, ele produzirá erros em tempo de execução, que dificulta e muito sua detecção no meio do código. Vantagem do dart é que ele obriga esse tratamento.
-b) Null safety é o tratamento de nulo dentro do código. É obrigado pelo dart esse tratamento, fazendo-o com o uso de ! (Bang), variável? (possível nulo) e tambem a pausa de execução  ?.toString();
+b) Null safety é o tratamento de nulo dentro do código. É obrigado pelo dart esse tratamento, fazendo-o com o uso de ! (Bang), variável? (possível nulo) e tambem a pausa de execução  ?.toString(); ?? para declarar valor padrão
 c) String? nome = stdin.readLineSync();
 d) ! (Bang), variável? (possível nulo) e tambem a pausa de execução  ?.toString();
-    String? nome = stdin.readLineSync(); // String? nome = stdin.readLineSync()?.toUppercase(); // String nome = stdin.readLineSync()!;
+    String? nome = stdin.readLineSync(); // String? nome = stdin.readLineSync()?.toUppercase(); // String nome = stdin.readLineSync()!; String nome = stdin.readLineSync()?? 'aa';
+
+
 [Atividade 03]
 a) void motrarString(String mensagem) {
   print(mensagem);
@@ -86,8 +88,8 @@ double calculaMedia(int quantidadeNumeros, double valor) {
   return valor / quantidadeNumeros;
 }
 
-
-
+[Atividade 04]
+a)
 
 ----------------------------------------------------------------------- Atividades -----------------------------------------------------------------------
 ----------------------------------------------------------------------- Código escrito em aula -----------------------------------------------------------
@@ -120,7 +122,7 @@ main() {
   /* */
 }
 
-void motrarString(String mensagem) {
+void motrarStringConsole(String mensagem) {
   print(mensagem);
 }
 
