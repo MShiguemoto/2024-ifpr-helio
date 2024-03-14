@@ -8,6 +8,9 @@
 [Definição] A declaração de objetos em dart pode ser feita sem o uso de referência do objeto.
 [Construtor] MinhaClasse();   /*Diretamente, sem referência*/
 
+[Definição] A declaração de variáveis não obrigatórias é feita dentro de colchetes, com um valor padrão. [int y = 0]
+[Assinaturas de métodos e construtores]  MinhaClasse(int x, [int y = 0]) { }
+
 ----------------------------------------------------------------------- Anotações -----------------------------------------------------------------------
 
 
