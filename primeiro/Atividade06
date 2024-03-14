@@ -11,11 +11,20 @@
 [Definição] A declaração de variáveis não obrigatórias é feita dentro de colchetes, com um valor padrão. [int y = 0]
 [Assinaturas de métodos e construtores]  MinhaClasse(int x, [int y = 0]) { }
 
+[Definição] É possivel fazer a atribuição de um valor à um atributo da classe através do construtor da classe, declarando diretamente o atributo na assinatura da classe.
+[Assinatura de contrutores] MinhaClasse(this.x, this.y) -> Recebe os dois valores e já atribui as variáveis x e y da classe.
+
+[Definição] É possível obrigar a declaração de qual parte da assinatura do construtor está sendo enviada e, com isso, abrir a possibilidade de informar as variáveis fora de ordem.
+[Assinatura de construtores] MinhaClasse({required this.x, required this.y}) -> "Required" obriga a declarar as assinaturas ao construir o objeto.
+[Assinatura de construtores] MinhaClasse(x: 3, y: 0);   ou MinhaClasse(y: 3, x: 0); -> trocando a ordem dos parâmetros
 ----------------------------------------------------------------------- Anotações -----------------------------------------------------------------------
-
-
-
 ----------------------------------------------------------------------- Atividades -----------------------------------------------------------------------
+
+
+
+
+
+
 
 
 ----------------------------------------------------------------------- Atividades -----------------------------------------------------------------------
