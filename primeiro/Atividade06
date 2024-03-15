@@ -45,7 +45,7 @@ class Cidade {
   int id;
   String nome;
   Estado estado;
-  Cidade({required this.id,required this.nome,required this.estado});
+  Cidade({required this.id, required this.nome, required this.estado});
 }
 
 class Cliente {
@@ -53,7 +53,7 @@ class Cliente {
   String nome;
   Cidade cidadeTrabalho;
   Cidade cidadeMoradia;
-  Cliente({required this.id,required this.nome,required this.cidadeTrabalho, required this.cidadeMoradia});
+  Cliente({required this.id, required this.nome, required this.cidadeTrabalho, required this.cidadeMoradia});
 }
 
 class Fornecedor {
@@ -61,7 +61,7 @@ class Fornecedor {
   String nome;
   Cidade cidadeTrabalho;
     Cidade cidadeMoradia;
-  Fornecedor({required this.id,required this.nome,required this.cidadeTrabalho, required this.cidadeMoradia});
+  Fornecedor({required this.id, required this.nome, required this.cidadeTrabalho, required this.cidadeMoradia});
 }
 
 class Venda {
@@ -69,7 +69,7 @@ class Venda {
   Cliente cliente;
   Fornecedor fornecedor;
   Function calculoComissao;
-  Venda({required this.id,required this.cliente,required this.fornecedor, required this.calculoComissao});
+  Venda({required this.id, required this.cliente, required this.fornecedor, required this.calculoComissao});
 }
 
 ```
