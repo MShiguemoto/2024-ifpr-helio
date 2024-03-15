@@ -21,6 +21,20 @@
 [Definição] A declaração de atributos privados não é necessário declarar o modificador de acesso, é possível criar um atribruto private utilizando "_" (underline) em sua declaração 
 [Declaração de variável]   private int x;  é igual a   int _x;    /* Por padrão, um atributo é public */
 
+[Definição] É possível passar Funções como parâmetros em construtores de classes, isso obriga a criação de uma função, semelhante às classes Abstract
+[Function como parâmetro] 
+class Venda {
+  int id;
+  Cliente cliente;
+  Fornecedor fornecedor;
+  Function calculoComissao;
+
+  Venda(
+      {required this.id,
+      required this.cliente,
+      required this.fornecedor,
+      required this.calculoComissao});
+
 
 ----------------------------------------------------------------------- Anotações ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------- Atividades ---------------------------------------------------------------------------------------------------
